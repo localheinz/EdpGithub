@@ -12,6 +12,11 @@ abstract class AbstractApi implements ServiceManagerAwareInterface
      */
     protected $client;
 
+    /**
+     * @var ServiceManager
+     */
+    private $serviceManager;
+
     protected $response;
 
     /**
